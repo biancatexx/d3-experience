@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>D3 EXPERIENCE</title>
+        <!-- Favicon-->
+     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+     
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+
+
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script src="assets/jQuery-Mask/dist/jquery.mask.min.js"></script>
+
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+
+    </head>
+    <body id="page-top">
+
+      
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+            
+                <li class="nav-item active">
+                  <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Experiencias
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item text-rental" href="group/the-ultimate-experience.html#chefExperience">CHEF Experience</a>
+                        <a class="dropdown-item text-rental" href="group/the-ultimate-experience.html#windExperience">WIND Experience</a>
+                        <a class="dropdown-item text-rental" href="group/travel.html">FLY Experience</a>
+                        <a class="dropdown-item text-education" href="group/education.html">EDUCATIONAL Experience</a>
+                      <a class="dropdown-item text-home" href="group/homes.html#roots">ROOTS Experience</a>                      
+                      <a class="dropdown-item text-home" href="group/homes.html#sole">SOLE Experience</a>
+                        <a class="dropdown-item text-tour" href="group/tour.html">CYCLE Experience</a>
+                        <a class="dropdown-item text-tour" href="group/tour.html#OffRoadExperience">OFF ROAD Experience</a>
+
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#casas">Stays</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"> <img class="brand-menu" src="assets/img/logo-color-d3-h.png"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reserva">Comercial</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#group">Group</a>
+                </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contato</a>
+                  </li>
+                
+              </ul>
+            </div>
+          </nav>
+
+
+        <header>
+
+            <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background: linear-gradient(to bottom, rgba(0, 160, 175, 0.8)0%, rgba(192, 209, 40, 0.2) 100%),
+                     url(assets/img/atracoes-format/girl-beach.webp);  background-position: center;  background-size: cover;">
+                        <div class="carousel-caption">
+                            <div class="container  h-100">
+                                <div class="row h-100 align-items-center justify-content-center text-center">
+                                    <div class="col-lg-10"  data-aos="fade-up" data-aos-duration="1500">
+                                        <div class="publi-header">
+                                            <img class="brand-menu-mobile" src="assets/img/logo-color-d3-h.png">
+                                            <h1 class="text-white title-header ">VENTO DAQUI, DE LONGE,
+                                                DE LÁ MEU VERDADEIRO LAR</h1>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="background: linear-gradient(to bottom, rgba(192, 209, 40, 0.1) 0%,rgba(0, 160, 175, 0.5) 100%),
+                     url(assets/img/atracoes-format/barbados-gastronomy-01.webp);  background-position: center;  background-size: cover;">
+                        <div class="carousel-caption">
+                            <div class="container h-100">
+                                <div class="row h-100 align-items-center justify-content-center text-center">
+                                    <div class="col-lg-10"  data-aos="fade-up">
+                                        <div class="publi-header">
+                                            <img class="brand-menu-mobile" src="assets/img/logo-color-d3-h.png">
+                                            <h1 class="text-white title-header ">VENTO DAQUI, DE LONGE,
+                                                DE LÁ MEU VERDADEIRO LAR</h1>
+                                        
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="background: linear-gradient(to bottom, rgba(192, 209, 40, 0.1) 0%,rgba(0, 160, 175, 0.5) 100%),
+                    url(assets/img/atracoes-format/kitsurf-0.webp);  background-position: center;  background-size: cover;">
+                       <div class="carousel-caption">
+                           <div class="container h-100">
+                               <div class="row h-100 align-items-center justify-content-center text-center">
+                                   <div class="col-lg-10"  data-aos="fade-up">
+                                       <div class="publi-header">
+                                           <img class="brand-menu-mobile" src="assets/img/logo-color-d3-h.png">
+                                           <h1 class="text-white title-header ">VENTO DAQUI, DE LONGE,
+                                               DE LÁ MEU VERDADEIRO LAR</h1>
+                                       
+                                       </div>
+
+                                   </div>
+
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </header>
+        <!-- About-->
+        <section class="page-section bg-pattern" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class=" title-section mt-0">D3 EXPERIENCE</h2>
+                        <hr class="divider divider-light" />
+                        <p class=" mb-4">
+                            Nós somos o mar, o sol, a praia, o vento. Movimento. Nós somos o descanso,
+                             o prazer, o deleite, a natureza, o destino. Paz. 
+                             <br/>Nós somos a aventura, a adrenalina, o novo, a onda, o voo. Diversão. <br/>
+                             Nós somos cultura, a arte, os sabores, a música. Vida.
+                            <br/><strong>Nós somos D3 EXPERIENCE. </strong><br/>
+                            Conheça-nos e permita-se.
+                        </p>
+
+                        <div id="carouselExampleControls" class="carousel slide hide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/img/logo-1.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="assets/img/logo-2.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="assets/img/logo-3.png" class="d-block w-100" alt="...">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="..." class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="..." class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+<!--                        <a class="btn btn-light btn-xl" href="#services">Seja um parceiro</a>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="" id="services">
+            <div class="container px-4 px-lg-5">
+
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-4 col-md-6 cta-services">
+                        <h2 class="title-section text-white mt-0">EXPERIÊNCIAS</h2>
+                        <p class="text-white-75">
+
+                            Nossas experiências foram concebidas pensando em oferecer a você o melhor da aventura e diversão.
+                            Conforto, segurança e comodidade para apreciar o melhor do Ceará.</p>
+                    </div>
+                    <div class="col-lg-8 col-md-6 text-center">
+                        <div class="card-services">
+                            <div class="row">
+                                <div class="col-md-6 text-center mb-2">
+                                    <a href="group/homes.html#sole" class="mt-5">
+                                        <div class="intro-service-d">
+                                            <div class="mb-2"><i class="bi bi-house fs-1"></i></div>
+                                            <h3 class="h4 mb-2 title-service">Sole Experience</h3>
+                                            
+                                        </div>
+                                        <span class="intro-service"> Aluguel de casa </span>
+                                        <p class="mb-0 descript-service">Uma casa ampla, para até 15 convidados, com todas
+                                            as amenidades que um grupo deste tamanho necessita, além das vantagens de ser cercada pelas dunas e pelo mar, um diferencial que pouquíssimos lugares no mundo podem oferecer. </p>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-center mb-2">
+                                    <a href="group/homes.html#roots" class="mt-5">
+                                        <div class="intro-service-d">
+                                            <div class="mb-2"><i class="bi bi-house-door fs-1"></i></div>
+                                            <h3 class="h4 mb-2 title-service">Roots Experience</h3>
+                                           
+                                        </div>
+                                        <span class="intro-service"> Aluguel de casa </span>
+                                        <p class="mb-0 descript-service"> Uma casa para até 9 convidados, aconchegante e super perto de um dos melhores picos de Kite Surf do mundo. Nossa casa mais indicada aos amantes dos esportes radicais.</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-center mb-2">
+                                    <a href="group/the-ultimate-experience.html" class="mt-5">
+                                        <div class="intro-service-d">
+                                            <div class="icon-servi"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                                <g><g><path d="M487.489,361.123h-10.404c1.474-8.065,2.234-16.27,2.234-24.511c0-75.383-61.33-136.712-136.715-136.712h-75.311    c-72.649,0-132.237,56.965-136.465,128.575l-21.399,0.066L93.12,312.325c-6.688-6.688-15.578-10.371-25.035-10.371    c-9.458,0-18.348,3.683-25.035,10.371c-6.686,6.686-10.37,15.577-10.37,25.034c0,8.87,3.239,17.24,9.159,23.763h-17.33    C10.996,361.123,0,372.118,0,385.634c0,13.516,10.996,24.511,24.511,24.511h10.451l5.959,17.878    c6.839,20.518,29.139,36.591,50.768,36.591h328.623c21.628,0,43.927-16.072,50.768-36.591l5.959-17.878h10.451    c13.515,0,24.511-10.995,24.511-24.511C512,372.118,501.004,361.123,487.489,361.123z M462.979,336.613    c0,8.258-0.863,16.475-2.541,24.511h-16.74c1.939-7.989,2.941-16.191,2.941-24.511c0-57.365-46.669-104.034-104.034-104.034    c-21.589,0-42.313,6.584-59.931,19.04c-3.684,2.605-4.56,7.704-1.954,11.388c2.605,3.684,7.701,4.561,11.388,1.954    c14.844-10.495,32.305-16.042,50.496-16.042c48.355,0,87.694,39.339,87.694,87.694c0,8.361-1.191,16.578-3.506,24.511H258.416    c-2.315-7.933-3.506-16.15-3.506-24.511c0-18.192,5.547-35.654,16.042-50.497c2.606-3.684,1.73-8.782-1.954-11.388    c-3.688-2.606-8.782-1.73-11.388,1.954c-12.456,17.617-19.04,38.341-19.04,59.931c0,8.319,1.002,16.521,2.941,24.511h-16.74    c-1.679-8.035-2.541-16.252-2.541-24.511c0-66.373,54-120.371,120.374-120.371S462.979,270.24,462.979,336.613z M146.919,336.621    c0-66.378,54.001-120.38,120.374-120.38h10.546c-42.803,23.121-71.95,68.404-71.95,120.371c0,8.241,0.761,16.446,2.234,24.511    h-61.205V336.621z M54.605,323.879c3.6-3.6,8.387-5.584,13.48-5.584s9.879,1.983,13.497,5.6l18.725,18.622    c1.536,1.529,3.617,2.415,5.787,2.377l24.486-0.076v16.306H64.894l-10.29-10.284c-3.6-3.6-5.583-8.388-5.583-13.481    C49.021,332.267,51.004,327.48,54.605,323.879z M487.489,393.804h-16.17c-0.026,0-365.106,0-365.106,0    c-4.513,0-8.17,3.658-8.17,8.17s3.657,8.17,8.17,8.17h353.6l-4.237,12.711c-4.593,13.777-20.741,25.417-35.265,25.417H91.688    c-14.523,0-30.672-11.64-35.265-25.417l-4.237-12.711h21.345c4.513,0,8.17-3.658,8.17-8.17s-3.657-8.17-8.17-8.17H40.709    c-0.029,0-16.199,0-16.199,0c-4.506,0-8.17-3.665-8.17-8.17c0-4.506,3.665-8.17,8.17-8.17h462.979c4.506,0,8.17,3.665,8.17,8.17    C495.66,390.14,491.995,393.804,487.489,393.804z"/>
+                                                    </g>
+                                                </g>
+                                                <g> <g>
+                                                        <path d="M342.604,295.762c-22.526,0-40.851,18.325-40.851,40.851c0,4.512,3.657,8.17,8.17,8.17s8.17-3.658,8.17-8.17    c0-13.516,10.996-24.511,24.511-24.511c13.515,0,24.511,10.995,24.511,24.511c0,4.512,3.657,8.17,8.17,8.17s8.17-3.658,8.17-8.17    C383.455,314.087,365.13,295.762,342.604,295.762z"/>
+                                                    </g>
+                                                </g>
+                                                <g><g>
+                                                        <path d="M228.767,145.431c0-12.895,3.324-18.99,7.172-26.046c4.296-7.878,9.168-16.808,9.168-33.869    c0-17.028-4.852-25.954-9.144-33.82c-1.378-2.564-4.085-4.308-7.2-4.308c-4.512,0-8.17,3.658-8.17,8.17    c0,1.424,0.366,2.762,1.007,3.927c3.847,7.051,7.167,13.144,7.167,26.031c0,12.895-3.324,18.99-7.172,26.046    c-4.296,7.878-9.168,16.808-9.168,33.869s4.871,25.99,9.167,33.868c1.483,2.719,4.287,4.259,7.18,4.259    c1.321,0,2.662-0.321,3.904-0.999c3.962-2.16,5.422-7.123,3.26-11.084C232.091,164.418,228.767,158.326,228.767,145.431z"/>
+                                                    </g>
+                                                </g>
+                                                <g><g> <path d="M283.235,145.431c0-12.895,3.324-18.99,7.172-26.046c4.296-7.878,9.168-16.808,9.168-33.869    c0-17.028-4.852-25.954-9.144-33.82c-1.378-2.564-4.085-4.308-7.2-4.308c-4.512,0-8.17,3.658-8.17,8.17    c0,1.424,0.366,2.762,1.007,3.927c3.847,7.051,7.167,13.144,7.167,26.031c0,12.895-3.324,18.99-7.172,26.046    c-4.296,7.878-9.168,16.808-9.168,33.869s4.871,25.99,9.167,33.868c1.483,2.719,4.287,4.259,7.18,4.259    c1.321,0,2.662-0.321,3.904-0.999c3.962-2.16,5.422-7.123,3.26-11.084C286.559,164.418,283.235,158.326,283.235,145.431z"/></g>
+                                                </g><g> </g><g>   </g> <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                <g>
+                                                </g>
+                                                </svg></div>
+                                            <h3 class="h4 mb-2 title-service">Chef Experience</h3>
+                                            
+                                        </div>
+                                        <span class="intro-service">   Alta Gastronomia </span>
+                                        <p class="mb-0 descript-service">Torne-se chef por um dia com nossa experiencia no melhor
+                                            da gastronomia local e prepare receitas exclusivas criadas especialmente para a D3.</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-center mb-2">
+                                    <a href="group/tour.html" class="mt-5">
+                                        <div class="intro-service-d">
+                                            <div class="mb-2">
+                                                <div class="icon-servi"><svg xmlns="http://www.w3.org/2000/svg" width="116.752" height="94.202" viewBox="0 0 116.752 94.202">
+                                                    <path id="truck-monster-solid" d="M109.933,39.463h-2.819V28.188a5.638,5.638,0,0,0-5.638-5.638H88.51L73.856,4.232A11.28,11.28,0,0,0,65.051,0H45.1a5.638,5.638,0,0,0-5.638,5.638V22.55H8.456a2.818,2.818,0,0,0-2.819,2.819V39.463H2.819A2.818,2.818,0,0,0,0,42.282V47.92a2.818,2.818,0,0,0,2.819,2.819H14.237C17.659,46.21,22.771,45.28,26.2,45.1c1.042-.063-1.091,0,1.989,0s-1.957.088,0,0c2.513-.126,10.529.084,13.951,4.612H70.613c3.933-2.261,4.758-4.612,13.951-4.612s11.094,2.239,13.955,4.612l11.414,1.025a2.818,2.818,0,0,0,2.819-2.819V42.282A2.818,2.818,0,0,0,109.933,39.463ZM50.738,22.55V11.275H65.051l9.02,11.275ZM104.3,62.014h-.916a19.413,19.413,0,0,0-1.524-3.68l.647-.647a2.819,2.819,0,0,0,0-3.987l-3.987-3.987a2.819,2.819,0,0,0-3.987,0l-.647.647a19.529,19.529,0,0,0-3.68-1.524V47.92A2.818,2.818,0,0,0,87.383,45.1H81.745a2.818,2.818,0,0,0-2.819,2.819v.916a19.414,19.414,0,0,0-3.68,1.524l-.647-.647a2.819,2.819,0,0,0-3.987,0L66.626,53.7a2.819,2.819,0,0,0,0,3.987l.647.647a19.529,19.529,0,0,0-1.524,3.68h-.916a2.818,2.818,0,0,0-2.819,2.819V70.47a2.818,2.818,0,0,0,2.819,2.819h.916a19.414,19.414,0,0,0,1.524,3.68l-.647.647a2.819,2.819,0,0,0,0,3.987l3.987,3.987a2.819,2.819,0,0,0,3.987,0l.647-.647a19.544,19.544,0,0,0,3.682,1.524v.916A2.818,2.818,0,0,0,81.747,90.2h5.638A2.818,2.818,0,0,0,90.2,87.383v-.916a19.478,19.478,0,0,0,3.682-1.524l.647.647a2.819,2.819,0,0,0,3.987,0l3.987-3.987a2.819,2.819,0,0,0,0-3.987l-.647-.647a19.528,19.528,0,0,0,1.524-3.68h.916a2.818,2.818,0,0,0,2.819-2.819V64.832a2.823,2.823,0,0,0-2.822-2.819ZM84.564,76.108a8.456,8.456,0,1,1,8.456-8.456A8.456,8.456,0,0,1,84.564,76.108ZM47.92,62.014H47a19.413,19.413,0,0,0-1.524-3.68l.647-.647a2.819,2.819,0,0,0,0-3.987l-3.987-3.987a2.819,2.819,0,0,0-3.987,0l-.647.647a19.529,19.529,0,0,0-3.68-1.524V47.92A2.818,2.818,0,0,0,31.007,45.1H25.369A2.818,2.818,0,0,0,22.55,47.92v.916a19.413,19.413,0,0,0-3.68,1.524l-.647-.647a2.819,2.819,0,0,0-3.987,0L10.25,53.7a2.819,2.819,0,0,0,0,3.987l.647.647a19.529,19.529,0,0,0-1.524,3.68H8.456a2.818,2.818,0,0,0-2.819,2.819v5.638a2.818,2.818,0,0,0,2.819,2.819h.916a19.414,19.414,0,0,0,1.524,3.68l-.647.647a2.819,2.819,0,0,0,0,3.987l3.987,3.987a2.819,2.819,0,0,0,3.987,0l.647-.647a19.545,19.545,0,0,0,3.682,1.524v.916A2.818,2.818,0,0,0,25.371,90.2h5.638a2.818,2.818,0,0,0,2.819-2.819v-.916a19.478,19.478,0,0,0,3.682-1.524l.647.647a2.819,2.819,0,0,0,3.987,0L46.13,81.6a2.819,2.819,0,0,0,0-3.987l-.647-.647a19.529,19.529,0,0,0,1.524-3.68h.916a2.818,2.818,0,0,0,2.819-2.819V64.831A2.823,2.823,0,0,0,47.92,62.014ZM28.188,76.108a8.456,8.456,0,1,1,8.456-8.456A8.456,8.456,0,0,1,28.188,76.108Z" transform="translate(2 2)" fill="none" stroke="#fff" stroke-width="4"/>
+                                                </svg></div>
+                                            </div>
+                                            <h3 class="h4 mb-2 title-service">Off Road Experience</h3>
+                                        </div>
+                                        <span class="intro-service">Utv's e Quadriciclos  </span>
+                                        <p class="mb-0 descript-service">
+                                            
+                                            Explore as areias da região em grande estilo. Os melhores e mais modernos UTVs e
+                                            quadriciclos para apreciar as trilhas off-road a região.
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-center mb-2">
+                                    <a href="group/education.html" class="mt-5">
+                                        <div class="intro-service-d">
+                                        <div class="mb-2"><i class="bi-tsunami fs-1"></i></div>
+                                        <h3 class="h4 mb-2 title-service">Wind Experience</h3>
+                                       
+                                        </div>
+                                        <span class="intro-service"> Aulas de Kite Surf </span>
+                                        <p class="mb-0 descript-service">
+                                           
+                                            Esporte, aventura e exercício na meca do Kite Surf local.
+                                            Faça uma aula experimental e deixe-se levar pelo vento forte das nossas praias.</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-center mb-2">
+                                    <a href="group/travel.html" class="mt-5">
+                                        <div class="intro-service-d">
+                                        <div class="mb-2">
+                                            <div class="icon-servi"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plane" class="svg-inline--fa fa-plane fa-w-18" role="img" viewBox="0 0 576 512"><path d="M480 192H365.71L260.61 8.06A16.014 16.014 0 0 0 246.71 0h-65.5c-10.63 0-18.3 10.17-15.38 20.39L214.86 192H112l-43.2-57.6c-3.02-4.03-7.77-6.4-12.8-6.4H16.01C5.6 128-2.04 137.78.49 147.88L32 256 .49 364.12C-2.04 374.22 5.6 384 16.01 384H56c5.04 0 9.78-2.37 12.8-6.4L112 320h102.86l-49.03 171.6c-2.92 10.22 4.75 20.4 15.38 20.4h65.5c5.74 0 11.04-3.08 13.89-8.06L365.71 320H480c35.35 0 96-28.65 96-64s-60.65-64-96-64z"/></svg>
+                                            </div>
+                                        </div>
+                                        <h3 class="h4 mb-2 title-service">Fly Experience</h3>
+                                       </div>
+                                       <span class="intro-service"> Translado FOR - Preá 	 </span>
+                                       <!-- span class="intro-service"> Translado FOR - Preá / <br/> Jato
+                                         executivo e passeio de helicóptero </span> -->
+                                        <p class="mb-0 descript-service">   Para quem não quer perder nem um minuto da estadia e vislumbrar a melhor paisagem aérea do Ceará, nosso serviço
+                                            de jato executivo e helicóptero atende aos mais exigentes.
+                                        </p>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-6 text-center mb-2">
+                                    <a href="experience/route.html" class="mt-5">
+                                        <div class="mb-2"><i class="bi-image-alt fs-1"></i></div>
+                                        <h3 class="h4 mb-2 title-service">Route Experience</h3>
+<!--                                        <p class="intro-service"> Aulas de Kite Surf </p>-->
+                                        <p class="mb-0 descript-service">Conheça cada segredo da nossa região nessa experiencia que mistura gastronomia, arte e cultura.</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-center mb-2">
+                                    <a href="experience/cycle.html" class="mt-5">
+                                        <div class="mb-2"><i class="bi-bicycle fs-1"></i></div>
+                                        <h3 class="h4 mb-2 title-service">Cycle Experience</h3>
+<!--                                        <p class="intro-service"> Aulas de Kite Surf </p>-->
+                                        <p class="mb-0 descript-service">Tecnología a serviço do exercício e da contemplação!
+                                            Curta as praias e dunas em uma  bike híbrida totalmente adaptada às areias da nossa região.</p>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="casas">
+            <div class="container content-section-heading px-4 px-lg-5 text-center">
+                <h2 class="title-section mb-4">Stays</h2>
+            </div>
+
+            <div class="container px-4 px-lg-5">
+
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="casa-item"  href="group/homes.html#sole" >
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2"> SOLE Experience </div>
+                                    <p class="p">Uma casa ampla, para até 15 convidados, com todas as amenidades que um grupo deste tamanho necessita,
+                                        além das vantagens de ser cercada pelas dunas e pelo mar,
+                                        um diferencial que pouquíssimos lugares no mundo podem oferecer. </p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/casas/casa-sole.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="casa-item"  href="group/homes.html#roots" >
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">ROOTS Experience</div>
+                                    <p class="p">Uma casa para até 9 convidados, aconchegante e super perto de um dos melhores picos de Kite Surf do mundo. Nossa casa mais indicada aos amantes dos esportes radicais.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/casas/casa-roots.png" alt="...">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <a class="casa-item"  href="group/homes.html#luna" >
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">LUNA Experience </div>
+                                    <p class="p">Nossa hospedagem mais luxuosa e exclusiva. Para você que procura alto padrão do início ao fim de sua estádia. Estamos falando de um oásis de conforto, luxo e um desenho capaz de atender aos gostos mais exigentes. .</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/casas/casa-luna1.png" alt="...">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <a class="casa-item"  href="#reserva" >
+                            <div class="caption cta">
+                                <div class="caption-content">
+                                    <div class="h2 text-primary">RESERVA ESPECIAL</div>
+                                    <div class="p">Em breve o nosso novo empreendimento, que vai elevar o padrão de hospedagem e experiência no Preá
+                                        <div class="btn-default-alt">Saiba mais </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/casas/casa-luna.png" alt="...">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="reserva">
+
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-12 col-md-6 p-5 text-center">
+                        <h2 class="title-section text-white mt-0">COMERCIAL</h2>
+                        <p class="text-muted"></p>
+                   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form class="form-reserva">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="inputNomeC" name="inputNomeC" placeholder="">
+                                        <label for="inputNomeC">Nome</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="inputEmailC" name="inputEmailC" placeholder="">
+                                        <label for="inputEmailC">E-mail </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3">
+                                        <input type="tel" class="form-control phone" id="inputCelularC"  name="inputCelularC" placeholder="">
+                                        <label for="inputCelularC">Telefone</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3">
+
+                                            <select class="form-control selectpicker" title="" multiple data-live-search="true"
+                                             id="inputExperiencesC" name="inputExperiencesC">
+                                            <option value="CHEF Experience">CHEF Experience</option>
+                                            <option value="CYCLE Experience">CYCLE Experience</option>
+                                            <option value="OFF ROAD Experience">OFF ROAD Experience</option>
+                                            <option value="FLY Experience">FLY Experience</option>
+                                            <option value="ROOTS Experience">ROOTS Experience</option>
+                                            <option value="SOLE Experience">SOLE Experience</option>
+                                            <option value="LUNA Experience">LUNA Experience</option>
+                                            <option value="WIND Experience">WIND Experience</option>
+                                        </select>
+                                        <label for="inputExperiencesC">Experiências</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-floating">
+                                        <input type="number" class="form-control" id="inputHospedesC" name="inputHospedesC" placeholder="">
+                                        <label for="inputHospedesC">Hospedes</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-floating mb-3">
+                                            <input type="date" class="form-control" id="inputCheckinC" 
+                                             name="inputCheckinC"  placeholder="TESTE">
+                                        <label for="inputCheckinC">Data início</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-floating mb-3">
+                                            <input type="date" class="form-control" id="inputCheckoutC"
+                                             name="inputCheckoutC" placeholder="TESE2">
+                                        <label for="inputCheckoutC">Data término </label>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="row hide" id="retornoForReserva" align='center'>
+                                <div class="">
+                                    <div class="alert alert-info" role="alert">
+                                        Seu formulário foi enviado com sucesso! Em breve entraremos em contato.
+                        
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="row" align='center'>
+                                <div class="">
+                                    <div class="form-floating mb-3">
+                                        <button type="button" id="submitFormReserva" class="btn-default-primary m-0 w-100">Reservar</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row hide" align='center'>
+                                <div class="">
+                                    <div class="form-floating mb-3">
+                                        <button type="button" id="" class="btn-default-primary m-0 w-100">Reservar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row hide">
+
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3">
+                                        <select class="form-control" id="floatingSelect" aria-label="">
+                                            <option selected></option>
+                                            <option value="1">Casa LUNA</option>
+                                            <option value="2">Casa ROOTS</option>
+                                            <option value="3">Casa</option>
+                                        </select>
+                                        <label for="floatingSelect">Casa</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="page-section bg-dark text-white hide">
+            <div class="container px-4 px-lg-5 text-center">
+        
+                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
+            </div>
+        </section>
+
+        <section class="page-section bg-pattern" id="group">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="title-section mb-4">GROUP</h2>
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-10 mb-5">
+                        <p class="text-muted">O Grupo D3 nasce das nossas experiências como clientes, como consumidores e
+                            como amigos. Dessa fusão de pessoas e ideias, da pluralidade e da integração do homem com a natureza e com ele mesmo. <br/>
+                            Nosso propósito é levar o fator “uau” a tudo que o nosso grupo faz: de educação a diversão, daremos sempre o nosso melhor para que nossos clientes, parceiros comerciais, colaboradores e investidores tenham nada além do máximo em seu contato conosco.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-2 col-4 mb-5">
+                        <a href="group/homes.html" class="img-group">
+                            <img src="assets/img/logos/logo-homes.png">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-4 mb-5">
+                        <a href="group/the-ultimate-experience.html" class="img-group">
+                            <img src="assets/img/logos/logo-rentalhomes.png">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-4 mb-5">
+                        <a href="group/travel.html" class="img-group">
+                            <img src="assets/img/logos/logo-travel.png">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-4 mb-5">
+                        <a href="group/tour.html" class="img-group">
+                            <img src="assets/img/logos/logo-tour.png">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-4 mb-5">
+                        <a href="group/education.html" class="img-group">
+                            <img src="assets/img/logos/logo-education.png">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+       
+        <section class="bg-pattern" id="contact">
+            <div class="container px-4 px-lg-5" id="containerContato">
+                <div class="row justify-content-center mb-5 ">
+                    <div class="col-lg-12">
+                        <h2 class="title-section mt-0">CONTATO</h2>
+                        <p>Entre em contato conosco para agendar sua experiência. <br/>
+                            Nossos consultores estão à sua disposição para criar e personalizar tudo conforme a sua necessidade
+
+                        </p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 ">
+                    <div class="col-lg-8 mb-5">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="contatoInputName" name="contatoInputEmail" type="text" placeholder="" data-sb-validations="required" />
+                                        <label for="contatoInputEmail">NOME</label>
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">Nome é obrigatório.</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- Email address input-->
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="contatoInputEmail" name="contatoInputEmail" type="email" placeholder="" data-sb-validations="required,email" />
+                                        <label for="contatoInputEmail">E-MAIL</label>
+                                        <div class="invalid-feedback" data-sb-feedback="email:required">E-mail é obrigatório</div>
+                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email não é valido</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Phone number input-->
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="contatoInputPhone" name="contatoInputPhone" type="tel" placeholder="" data-sb-validations="required" />
+                                        <label for="contatoInputPhone">TELEFONE</label>
+                                        <div class="invalid-feedback" data-sb-feedback="phone:required">Telefone é obrigatorio.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row hide" id="retornoForContact" align='center' >
+                                        <div class="">
+                                            <div class="alert alert-info" role="alert">
+                                                Seu formulário foi enviado com sucesso! Em breve entraremos em contato.
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Message input-->
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control" id="contatoInputMsg" name="contatoInputMsg" type="text" placeholder="" style="height: 10rem" data-sb-validations="required"></textarea>
+                                        <label for="contatoInputMsg">MENSAGEM</label>
+                                        <div class="invalid-feedback" data-sb-feedback="message:required">A mensagem é obrigatoria.</div>
+                                    </div>
+                                </div>
+                                <!-- Submit success message-->
+                                <!---->
+                                <!-- This is what your users will see when the form-->
+                                <!-- has successfully submitted-->
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">
+                                        <div class="fw-bolder">Formulário enviado com sucesso!</div>
+                                    </div>
+                                </div>
+
+                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error ao enviar!</div></div>
+                                <!-- Submit Button-->
+                                <div class="d-grid"><button class="btn-default-primary w-100 m-0 disabled" id="submitFormContact" type="submit">Enviar</button></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row mb-4">
+                            <div class="col-lg-12 text-center mb-5">
+                                <i class="bi-phone fs-2 mb-3 text-primary"></i>
+                                
+                                <a class="d-block" target="_blank" href="https://api.whatsapp.com/send?phone=5561991349617">+55 61 9 91349617</a>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-lg-12 text-center mb-5">
+                                <i class="bi bi-envelope fs-2 mb-3 text-primary"></i>
+                                <a class="d-block" href="mailto:d3.rentalhomes@gmail.com">d3.rentalhomes@gmail.com</a>
+                            </div>
+
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-lg-12 text-center mb-5">
+                                <i class="bi bi-pin-map-fill fs-2 mb-3 text-primary"></i>
+                                <a class="d-block" href="">
+                                    Av. Beiramar - Sem Número <br/> Cruz/CE CEP: 62.959-000</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+         <!-- Contact-->
+         <section class="map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3985.0121360909757!2d-40.416295!3d-2.81258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7e9891b41c66919%3A0x99fde7b838724bc2!2sPraia%20do%20Pre%C3%A1!5e0!3m2!1spt-BR!2sus!4v1628787543729!5m2!1spt-BR!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <footer class="footer pt-5 pb-5 mt-auto bg-light footer-light">
+            <div class="container px-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4">
+                        <div class="footer-brand"><img src="assets/img/logo-color-d3-h.png" width="100"></div>
+                        <div class="mb-3 mt-2 text-muted">Acompanhe nossas redes sociais</div>
+                        <div class="icon-list-social mb-5">
+                            <a class="icon-list-social-link" href="https://www.instagram.com/d3.experience" target="_blank"><svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram"></i> Font Awesome fontawesome.com --></a>
+                            <a class="icon-list-social-link" href="https://www.facebook.com/d3.rentalhomes" target="_blank"><svg class="svg-inline--fa fa-facebook fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg><!-- <i class="fab fa-facebook"></i> Font Awesome fontawesome.com --></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row gx-5">
+                            <div class="col-lg-8 col-md-6 mb-5 mb-md-0">
+                                <div class="text-uppercase-expanded text-xs mb-4">EXPERIÊNCIAS</div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><a href="group/the-ultimate-experience.html#chefExperience">CHEF Experience</a></li>
+                                            <li class="mb-2"><a href="group/the-ultimate-experience.html#windExperience">WIND Experience</a></li>
+                                            <li class="mb-2"><a href="group/travel.html">FLY Experience</a></li>
+                                            <li class=""><a href="group/education.html">EDUCATIONAL Experience</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><a href="group/homes.html#roots">ROOTS Experience</a></li>
+                                            <li class="mb-2"><a href="group/homes.html#sole">SOLE Experience</a></li>
+                                            <li class="mb-2"><a href="group/tour.html">CYCLE Experience</a></li>
+                                            <li><a href="group/tour.html#OffRoadExperience">OFF ROAD Experience</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                                <div class="text-uppercase-expanded text-xs mb-4">LINKS</div>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><a href="index.html">Home</a></li>
+                                    <li class="mb-2"><a href="index.html#about">Sobre</a></li>
+                                    <li class="mb-2"><a href="index.html#services">Experiências</a></li>
+                                    <li class="mb-2"><a href="index.html#casas">Stays</a></li>
+                                    <li class="mb-2"><a href="index.html#reserva">Comercial</a></li>
+                                    <li class="mb-2"><a href="index.html#group">Group</a></li>
+                                    <li><a href="index.html#contact">Contato</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-md-6 small">Copyright © 2021 - D3 EXPERIENCE</div>
+                    <div class="col-md-6 text-md-end small">
+<!--                        <a href="#!">Privacy Policy</a>-->
+<!--                        <a href="#!">Terms &amp; Conditions</a>-->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+
+        <script>
+            $('.selectpicker').selectpicker();
+            $('.carousel').carousel({
+                interval: 4000})
+        </script>
+
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
